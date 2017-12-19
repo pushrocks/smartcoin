@@ -1,0 +1,20 @@
+{
+  "name": "smartcoin",
+  "version": "1.0.1",
+  "description": "short term coin generation",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "scripts": {
+    "test": "(npmts)"
+  },
+  "devDependencies": {
+    "tapbundle": "^1.0.13"
+  },
+  "dependencies": {
+    "coin-hive": "^1.10.0",
+    "lik": "^2.0.2",
+    "smartdelay": "^1.0.4"
+  }
+}
