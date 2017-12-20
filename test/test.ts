@@ -10,7 +10,7 @@ tap.test('first test', async () => {
 })
 
 tap.test('should mine for a short period of time', async () => {
-  await testCoin.mineFor(testKey)
+  await testCoin.mineFor(testKey, 60000)
 })
 
 tap.start()
