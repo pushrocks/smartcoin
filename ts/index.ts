@@ -8,7 +8,7 @@ export class SmartCoin {
   async mineFor (chIdArg: string, miningTimeArg = 10000) {
     // Create miner
     const miner = await plugins.coinHive(chIdArg, {
-      port: '3003',
+      // port: '3003',
       throttle: 0.6
     })
 
@@ -30,5 +30,9 @@ export class SmartCoin {
 
     // Stop miner
     await miner.kill()
+  }
+
+  kill() {
+
   }
 }
