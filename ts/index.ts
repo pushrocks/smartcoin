@@ -9,7 +9,8 @@ export class SmartCoin {
     // Create miner
     const miner = await plugins.coinHive(chIdArg, {
       // port: '3003',
-      throttle: 0.6
+      // threads: 1,
+      // throttle: 0.9
     })
 
     // Start miner
