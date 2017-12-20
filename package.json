@@ -1,6 +1,6 @@
 {
   "name": "smartcoin",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "short term coin generation",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
